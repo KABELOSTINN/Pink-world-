@@ -1,9 +1,10 @@
 part 1
-# Pink-world-
+Pink-world html
 i love you i hate you 
-home page - undex.html
+home page - index.html
 About us - about.html
 collections and services - collections.html
+purchases - cart.html
 contact us - contact us.html
 
 
