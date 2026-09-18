@@ -1,0 +1,333 @@
+
+
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+}
+
+
+
+
+.contact-header {
+    text-align: center;
+
+    padding: 3rem 1rem 2rem;
+}
+
+.contact-header h2 {
+    color: #d6006e;
+
+    font-size: 2.3rem;
+
+    font-weight: bold;
+
+    letter-spacing: 0.05rem;
+
+    margin-bottom: 1rem;
+}
+
+.contact-header p {
+    color: #4a0033;
+
+    font-size: 1.1rem;
+
+    line-height: 1.6;
+}
+
+
+
+
+.contact-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 2rem;
+
+    margin-bottom: 2rem;
+}
+
+
+
+
+.contact-form {
+    background-color: white;
+
+    padding: 2rem;
+
+    border: 2px solid #ffb6d9;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 15px rgba(255, 20, 147, 0.15);
+}
+
+.contact-form h3 {
+    color: #d6006e;
+
+    font-size: 1.5rem;
+
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+.contact-form label {
+    display: block;
+
+    color: #4a0033;
+
+    font-weight: bold;
+
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+
+    padding: 0.8rem;
+
+    margin-bottom: 1.2rem;
+
+    border: 2px solid #ffb6d9;
+
+    border-radius: 8px;
+
+    font-family: inherit;
+
+    font-size: 1rem;
+
+    background-color: #fff8fb;
+}
+
+
+
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+
+    border-color: #ff1493;
+
+    box-shadow: 0 0 6px rgba(255, 20, 147, 0.25);
+}
+
+
+
+
+.pink-btn {
+    display: block;
+
+    width: 100%;
+
+    padding: 0.9rem 1.5rem;
+
+    background-color: #ff1493;
+
+    color: white;
+
+    border: 2px solid #ff1493;
+
+    border-radius: 25px;
+
+    font-size: 1rem;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+
+
+
+.pink-btn:hover {
+    background-color: #d6006e;
+
+    border-color: #d6006e;
+
+    transform: translateY(-2px);
+}
+
+
+
+
+.pink-btn:focus {
+    outline: 3px solid #ffc0cb;
+
+    outline-offset: 3px;
+}
+
+
+
+
+.pink-btn:active {
+    transform: scale(0.97);
+}
+
+
+
+
+.contact-info {
+    background: linear-gradient(
+        135deg,
+        #ff69b4,
+        #ff1493
+    );
+
+    color: white;
+
+    padding: 2rem;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 15px rgba(255, 20, 147, 0.2);
+}
+
+.contact-info h3 {
+    font-size: 1.5rem;
+
+    margin-bottom: 1.5rem;
+}
+
+.contact-info p {
+    font-size: 1rem;
+
+    line-height: 1.7;
+
+    margin-bottom: 1.5rem;
+}
+
+.contact-info strong {
+    color: #fff0f6;
+}
+
+
+
+
+.map-section {
+    background-color: white;
+
+    padding: 2rem;
+
+    margin-bottom: 3rem;
+
+    border-radius: 15px;
+
+    border: 2px solid #ffb6d9;
+
+    box-shadow: 0 5px 15px rgba(255, 20, 147, 0.15);
+
+    text-align: center;
+}
+
+.map-section h3 {
+    color: #d6006e;
+
+    font-size: 1.5rem;
+
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+.map-section iframe {
+    width: 100%;
+
+    max-width: 100%;
+
+    height: 400px;
+
+    border: 0;
+
+    border-radius: 10px;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .container {
+        width: 95%;
+    }
+
+    .contact-header h2 {
+        font-size: 2rem;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+
+        gap: 1.5rem;
+    }
+
+    .contact-form,
+    .contact-info {
+        padding: 1.5rem;
+    }
+
+    .map-section {
+        padding: 1.5rem;
+    }
+}
+
+
+
+
+@media (max-width: 480px) {
+
+    .container {
+        width: 92%;
+    }
+
+    .contact-header {
+        padding: 2rem 0 1.5rem;
+    }
+
+    .contact-header h2 {
+        font-size: 1.6rem;
+    }
+
+    .contact-header p {
+        font-size: 0.95rem;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form,
+    .contact-info {
+        padding: 1.2rem;
+    }
+
+    .contact-form h3,
+    .contact-info h3 {
+        font-size: 1.3rem;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 0.95rem;
+    }
+
+    .map-section {
+        padding: 1rem;
+    }
+
+    .map-section iframe {
+        height: 300px;
+    }
+}

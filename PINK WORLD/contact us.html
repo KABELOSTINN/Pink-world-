@@ -1,79 +1,242 @@
-<!DOCTYPE HTML>
-<html lang="en"> 
-<HEAD>
-    <title> Contact Us   |   PINK WORLD </title>
-</HEAD>
+<!DOCTYPE html>
 
-<BODY> 
-    <HEADER> 
+<html lang="en">
 
-        <nav> 
-                <a href="index.html">Home</a>
+<head>
 
-                <a href="about.html">About us</a>
+    <meta charset="UTF-8">
 
-                <a href="collections.html">Collections</a>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-                <a href="cart.html">Cart</a>
+    <title>Contact Us | PINK WORLD</title>
 
-                <a href="contact us.html"> contact us </a> 
-        </nav>
+    <link rel="stylesheet" href="styles.css">
 
-    </HEADER>
+</head>
 
-         <main class="container"> 
-            <section class="Contact-header">
-                <h2>Get in touch </h2>
-                <p>We'd love to hear from you!!
-                    DM us or drop a message below 
-                </p>
-            </section>
 
-            <div class="contact-grid">
-            <div class="contact form">
-                <h3> Send us a message</h3>
-                <form on submit="send message (event)">
-                    <label> Your Name </label>
-                    <input type="text"
-                    id="name" placeholder="Enter your name" required>
+<body>
 
-                    <label> Your Email</label>
-                    <input type="email"
-                    id="email" placeholder="Enter your email" required>
+    
 
-                    <label> Message</label>
-                    <textarea id="Message"
-                    rows="5" placeholder="How can we help you ?" required>
-                    </textarea>
+    <header>
+    <h1 class="logo">PINK WORLD CLOTHING</h1>
 
-                    <button type="submit"
-                    class="pink-btn">Send Message</button>
+    <!-- Desktop Navigation -->
+    <nav class="desktop-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="collections.html">Collections</a>
+        <a href="cart.html">Cart</a>
+        <a href="contact us.html">Contact Us</a>
+    </nav>
+
+    <!-- Mobile Hamburger -->
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+    <!-- Mobile Sidebar -->
+    <nav class="sidebar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="collections.html">Collections</a>
+        <a href="cart.html">Cart</a>
+        <a href="contact us.html">Contact Us</a>
+    </nav>
+</header>
+
+
+
+    
+
+    <main class="container">
+
+        
+
+        <section class="contact-header">
+
+            <h2>GET IN TOUCH</h2>
+
+            <p>
+                We'd love to hear from you!
+                DM us or drop a message below.
+            </p>
+
+        </section>
+
+
+        
+
+        <div class="contact-grid">
+
+
+            
+
+            <div class="contact-form">
+
+                <h3>Send Us a Message</h3>
+
+                <form onsubmit="sendMessage(event)">
+
+                    <label for="name">
+                        Your Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+
+
+                    <label for="email">
+                        Your Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="How can we help you?"
+                        required
+                    ></textarea>
+
+
+                    <button
+                        type="submit"
+                        class="pink-btn">
+
+                        Send Message
+
+                    </button>
+
                 </form>
+
             </div>
+
+
             
 
-            <div class="contact info">
-                <h3>Contact details</h3>
-                <p><b> Address:</b>1567 Khakhu Street,
-                Benoni, Daveyton 1520</p>
+            <div class="contact-info">
 
-                <p><b> WhatsApp:</b> 0733691891</p>
+                <h3>Contact Details</h3>
 
-                <p><b> Email:</b>kabelostinn@gmail.com</p>
+                <p>
+                    <strong>Address:</strong><br>
+                    1567 Khakhu Street,
+                    Benoni, Daveyton 1520
+                </p>
 
-                <p><b>Hours: </b>Mon - Sat : 9am - 6pm</p>
+                <p>
+                    <strong>WhatsApp:</strong><br>
+                    073 369 1891
+                </p>
 
-            </div>    
+                <p>
+                    <strong>Email:</strong><br>
+                    kabelostinn@gmail.com
+                </p>
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.4360098584316!2d28.40464364314282!3d-26.14992608398856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e953b91e1e230b9%3A0xfb18648aa28cf461!2s1567%20Khakhu%20St%2C%20Daveyton%2C%20Benoni%2C%201507!5e0!3m2!1sen!2sza!4v1786714141223!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-            
-        </main>
+                <p>
+                    <strong>Hours:</strong><br>
+                    Mon - Sat: 9am - 6pm
+                </p>
 
-            <footer> 
-                <p>&copy;2026 PINK WORLD. ALL RIGHTS RESERVED.</p>
-            </footer>
+            </div>
 
-         
+        </div>
 
-</BODY> 
-</html>        
+
+        
+
+        <section class="map-section">
+
+            <h3>Find Pink World</h3>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.4360098584316!2d28.40464364314282!3d-26.14992608398856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e953b91e1e230b9%3A0xfb18648aa28cf461!2s1567%20Khakhu%20St%2C%20Daveyton%2C%20Benoni%2C%201507!5e0!3m2!1sen!2sza!4v1786714141223!5m2!1sen!2sza"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin">
+            </iframe>
+
+        </section>
+
+    </main>
+
+
+   
+
+    <footer>
+    <div class="footer-container">
+        <!-- Company Info -->
+        <div class="footer-section">
+            <h3>About Pink World</h3>
+            <p>Pink World Clothing brings you stylish, trendy, and comfortable fashion for every occasion.</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="contact us.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>Email: <a href="mailto:info@pinkworld.com">info@pinkworld.com</a></p>
+            <p>Phone: <a href="tel:+27110000000">+27 11 000 0000</a></p>
+            <p>Address: Johannesburg, South Africa</p>
+        </div>
+
+        <!-- Newsletter Signup -->
+        <div class="footer-section">
+            <h3>Stay Updated</h3>
+            <form>
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+
+       <div class="footer-section social">
+    <h3>Follow Us</h3>
+    <a href="https://instagram.com/yourusername" target="_blank">
+        <img src="IMAGES/instagram-icon.png" alt="Instagram">
+    </a>
+</div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 Pink World. All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,225 @@
+
+/* =========================
+   COLLECTIONS PAGE
+   WEDE5020 PART 2
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff0f6;
+    color: #4a0033;
+    line-height: 1.6;
+}
+
+/* HEADER */
+
+header {
+    background-color: #ff69b4;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.logo {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 1.2rem;
+}
+
+/* NAVIGATION */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    background-color: #ff1493;
+    color: white;
+    text-decoration: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #ff1493;
+    transform: translateY(-2px);
+}
+
+nav a:focus {
+    outline: 3px solid #4a0033;
+}
+
+nav a:active {
+    transform: scale(0.95);
+}
+
+/* HERO */
+
+.pink-hero {
+    background: linear-gradient(
+        135deg,
+        #ff69b4,
+        #ff1493
+    );
+
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 1200px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(255, 20, 147, 0.2);
+}
+
+.pink-hero h2 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+/* CONTAINER */
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* GRID */
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+    margin: 2rem 0 3rem;
+}
+
+/* CARDS */
+
+.card {
+    background-color: white;
+    padding: 2rem;
+    border: 2px solid #ffb6d9;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(255, 20, 147, 0.15);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(255, 20, 147, 0.2);
+}
+
+.card h3 {
+    color: #d6006e;
+    margin-bottom: 1rem;
+}
+
+.card strong {
+    color: #ff1493;
+}
+
+/* IMAGES */
+
+.card img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border: 3px solid #ffb6d9;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.card img:hover {
+    transform: scale(1.03);
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #4a0033;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+}
+
+footer p {
+    color: white;
+    margin: 0;
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        width: 80%;
+        text-align: center;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .pink-hero {
+        width: 95%;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 480px) {
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    nav a {
+        width: 100%;
+    }
+
+    .pink-hero {
+        padding: 2rem 1rem;
+    }
+
+    .pink-hero h2 {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        padding: 1.2rem;
+    }
+
+    .card img {
+        max-width: 100%;
+    }
+}
