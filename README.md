@@ -18,3 +18,5 @@ Added meaningful classes such as .pink-hero, .container, .card-grid and .card so
 Added alt text to images to improve accessibility.  
 
 Added the viewport meta tag and linked the external CSS stylesheet to support responsive design.  
+
+Organised the products and services into separate cards, making the page easier to read and responsive on smaller screens.  
