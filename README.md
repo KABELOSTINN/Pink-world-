@@ -20,3 +20,11 @@ Added alt text to images to improve accessibility.
 Added the viewport meta tag and linked the external CSS stylesheet to support responsive design.  
 
 Organised the products and services into separate cards, making the page easier to read and responsive on smaller screens.  
+
+Corrected the HTML structure by properly separating the header, navigation, main content and footer.  
+
+Changed incorrect class names such as contact form to contact-form and contact info to contact-info, allowing the CSS to target them correctly.  
+
+Corrected the form attribute from on submit to onsubmit.  
+
+Added proper <label> connections using for attributes and matching input id values for accessibility.  
