@@ -9,7 +9,7 @@ contact us - contact us.html
 
 part 2 
 
-I corrected the <div> structure so the hero section and content sections close properly.  
+I corrected the  structure so the hero section and content sections close properly.  
 I changed the Product lay-out to use a card-grid container, allowing the six products/services to display in a two-column grid on desktop.  
 Added meaningful classes such as .pink-hero, .container, .card-grid and .card so the CSS can style each section properly.  
 Added alt text to images to improve accessibility.  
