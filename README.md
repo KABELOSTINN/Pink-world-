@@ -10,17 +10,11 @@ contact us - contact us.html
 part 2 
 
 I corrected the <div> structure so the hero section and content sections close properly.  
-
 I changed the Product lay-out to use a card-grid container, allowing the six products/services to display in a two-column grid on desktop.  
-
 Added meaningful classes such as .pink-hero, .container, .card-grid and .card so the CSS can style each section properly.  
-
 Added alt text to images to improve accessibility.  
-
 Added the viewport meta tag and linked the external CSS stylesheet to support responsive design.  
-
 Organised the products and services into separate cards, making the page easier to read and responsive on smaller screens.  
-
 Corrected the HTML structure by properly separating the header, navigation, main content and footer.  
 Changed incorrect class names such as contact form to contact-form and contact info to contact-info, allowing the CSS to target them correctly.  
 Corrected the form attribute from on submit to onsubmit.  
@@ -28,3 +22,10 @@ Added proper <label> connections using for attributes and matching input id valu
 Added name attributes to the form fields so the information can be processed correctly.  
 Placed the Google Maps iframe inside a map section so it can be made responsive with CSS.  
 Added the viewport meta tag and external CSS link for responsive design.  
+Added an About Pink World section with a short brand description.
+Added Quick Links for easier navigation.
+Added Contact Info with email, phone, and address.
+Added a Newsletter Signup form so visitors can subscribe.
+Simplified the Social Media section to show only Instagram (removed Facebook and Twitter).
+Fixed the issue where links were showing in default blue — they now appear white with a pink hover effect.
+
