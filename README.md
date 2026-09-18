@@ -38,8 +38,9 @@ On smaller screens, the hamburger icon appears. When tapped, a sidebar menu slid
 On desktop (≥769px) → the normal navigation bar shows.
 On mobile (≤768px) → the desktop nav hides, the hamburger icon appears, and the sidebar slides in.
 The footer and contact form are also responsive, stacking neatly on smaller screens.
-
 All new elements (footer, contact form, sidebar) follow the same pink + deep purple color scheme.
+I moved my css file into the css folder and linked my html files to the styles.css and now its working .
+ 
 
 
 
