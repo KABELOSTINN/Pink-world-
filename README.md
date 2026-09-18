@@ -28,4 +28,16 @@ Added Contact Info with email, phone, and address.
 Added a Newsletter Signup form so visitors can subscribe.
 Simplified the Social Media section to show only Instagram (removed Facebook and Twitter).
 Fixed the issue where links were showing in default blue — they now appear white with a pink hover effect.
+Updated the Send Message form to look modern and match the pink theme.
+Inputs and text areas now have rounded borders, pink outlines, and a soft glow when focused.
+The Send Message button matches the navigation buttons: pink background, white text, and a hover animation.
+The form sits inside a card-style box with rounded corners and a shadow, making it stand out.
+The desktop navigation bar remains visible on large screens.
+Added a hamburger menu for mobile and tablet devices.
+On smaller screens, the hamburger icon appears. When tapped, a sidebar menu slides in with the same navigation links.
+On desktop (≥769px) → the normal navigation bar shows.
+On mobile (≤768px) → the desktop nav hides, the hamburger icon appears, and the sidebar slides in.
+The footer and contact form are also responsive, stacking neatly on smaller screens.
+
+
 
