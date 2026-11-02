@@ -117,4 +117,4 @@ Added a theme toggle button to the website header.
 
 Created JavaScript functionality to switch between light and dark themes.
 
-
+Added theme preference storage using localStorage.
