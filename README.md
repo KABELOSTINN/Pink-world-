@@ -105,4 +105,8 @@ Minimum message length validation.
 
 Success and error messages for form submissions.
 
+Dynamic product search functionality.
+
+Image lightbox functionality for viewing gallery images.
+
 
