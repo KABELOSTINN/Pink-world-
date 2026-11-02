@@ -151,3 +151,6 @@ Implemented dynamic product search using JavaScript.
 Added functionality to filter product cards based on search terms.
 
 Implemented an image lightbox for viewing gallery images.
+
+Added functionality to close the lightbox by clicking the close button or outside the image.
+
