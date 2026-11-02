@@ -145,3 +145,5 @@ Added email subject headings to distinguish contact messages from enquiries.
 
 Product Search and Image Gallery
 Added interactive features to improve the browsing experience.
+
+Implemented dynamic product search using JavaScript.
