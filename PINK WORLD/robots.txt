@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://kabelostinn.github.io/Pink-world-/sitemap.xml

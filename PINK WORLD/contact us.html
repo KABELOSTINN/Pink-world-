@@ -2,18 +2,19 @@
 
 <html lang="en">
 
+
 <head>
-
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Pink World Clothing</title>
 
-    <title>Contact Us | PINK WORLD</title>
+    <meta name="description"
+          content="Contact Pink World Clothing in Johannesburg, South Africa, for fashion enquiries, custom clothing, styling services and customer assistance.">
 
     <link rel="stylesheet" href="css/styles.css">
-
 </head>
+
 
 
 <body>
@@ -30,7 +31,14 @@
         <a href="collections.html">Collections</a>
         <a href="cart.html">Cart</a>
         <a href="contact us.html">Contact Us</a>
+        <a href="enquiry.html">Enquiry</a>
     </nav>
+    
+<button id="theme-toggle" class="theme-btn"
+        type="button">
+    🌙 Dark Mode
+</button>
+
 
     
     <input type="checkbox" id="menu-toggle">
@@ -77,56 +85,49 @@
 
                 <h3>Send Us a Message</h3>
 
-                <form onsubmit="sendMessage(event)">
 
-                    <label for="name">
-                        Your Name
-                    </label>
+                
 
-                    <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        placeholder="Enter your name"
-                        required
-                    >
+<form action="https://formsubmit.co/kabelostinn@gmail.com"
+      method="POST">
+
+    <input type="hidden" name="_subject"
+           value="New Pink World Clothing Contact Message">
+
+    <input type="hidden" name="_template"
+           value="table">
+
+    <label for="name">Your Name</label>
+
+    <input type="text"
+           id="name"
+           name="name"
+           placeholder="Enter your name"
+           required>
+
+    <label for="email">Your Email</label>
+
+    <input type="email"
+           id="email"
+           name="email"
+           placeholder="Enter your email"
+           required>
+
+    <label for="message">Message</label>
+
+    <textarea id="message"
+              name="message"
+              rows="5"
+              placeholder="How can we help you?"
+              required></textarea>
+
+    <button type="submit" class="pink-btn">
+        Send Message
+    </button>
+
+</form>
 
 
-                    <label for="email">
-                        Your Email
-                    </label>
-
-                    <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        placeholder="Enter your email"
-                        required
-                    >
-
-
-                    <label for="message">
-                        Message
-                    </label>
-
-                    <textarea
-                        id="message"
-                        name="message"
-                        rows="5"
-                        placeholder="How can we help you?"
-                        required
-                    ></textarea>
-
-
-                    <button
-                        type="submit"
-                        class="pink-btn">
-
-                        Send Message
-
-                    </button>
-
-                </form>
 
             </div>
 
@@ -203,16 +204,35 @@
                 <li><a href="collections.html">Collections</a></li>
                 <li><a href="cart.html">Cart</a></li>
                 <li><a href="contact us.html">Contact Us</a></li>
+                <li></li><a href="enquiry.html">Enquiry</a></li>
             </ul>
         </div>
 
         
-        <div class="footer-section">
-            <h3>Contact</h3>
-            <p>Email: <a href="mailto:info@pinkworld.com">info@pinkworld.com</a></p>
-            <p>Phone: <a href="tel:+27110000000">+27 11 000 0000</a></p>
-            <p>Address: Johannesburg, South Africa</p>
-        </div>
+        
+<div class="footer-section">
+    <h3>Contact</h3>
+
+    <p>
+        Email:
+        <a href="mailto:kabelostinn@gmail.com">
+            kabelostinn@gmail.com
+        </a>
+    </p>
+
+    <p>
+        Phone:
+        <a href="tel:+27733691891">
+            073 369 1891
+        </a>
+    </p>
+
+    <p>
+        Address: 1567 Khakhu Street,
+        Daveyton, Benoni, South Africa
+    </p>
+</div>
+
 
         
         <div class="footer-section">
@@ -225,7 +245,9 @@
 
        <div class="footer-section social">
     <h3>Follow Us</h3>
-    <a href="https://instagram.com/yourusername" target="_blank">
+    <a href="https://instagram.com/yourusername"
+   target="_blank"
+   rel="noopener noreferrer">
         <img src="IMAGES/instagram-icon.png" alt="Instagram">
     </a>
 </div>
@@ -235,7 +257,7 @@
         <p>&copy; 2026 Pink World. All Rights Reserved.</p>
     </div>
 </footer>
-
+<script src="js/script.js"></script>
 
 </body>
 

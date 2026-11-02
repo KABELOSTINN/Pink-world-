@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Collections | PINK WORLD</title>
+
+    <title>Collections and Services | Pink World Clothing</title>
+
+    <meta name="description"
+          content="Explore Pink World Clothing collections, custom clothing, personal styling, wholesale fashion, alterations and nationwide delivery in South Africa.">
 
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 
 <body>
 
@@ -21,7 +27,14 @@
         <a href="collections.html">Collections</a>
         <a href="cart.html">Cart</a>
         <a href="contact us.html">Contact Us</a>
+        <a href="enquiry.html">Enquiry</a>
     </nav>
+    
+<button id="theme-toggle" class="theme-btn"
+        type="button">
+    🌙 Dark Mode
+</button>
+
 
     
     <input type="checkbox" id="menu-toggle">
@@ -51,6 +64,21 @@
     
     <section class="container">
 
+        <div class="search-box">
+
+    <label for="productSearch">
+        Search Pink World Products and Services
+    </label>
+
+    <input
+        type="search"
+        id="productSearch"
+        placeholder="Search products or services..."
+        aria-label="Search Pink World products and services"
+    >
+
+</div>
+
         <div class="card-grid">
 
             
@@ -67,8 +95,16 @@
                     Limited edition drops and seasonal collections.
                 </p>
 
-                <img src="IMAGES/othando.jpeg" alt="Pink World clothing">
-                <img src="IMAGES/khhado.jpeg" alt="Pink World clothing">
+                <img
+    src="IMAGES/othando.jpeg"
+    alt="Pink World pink clothing collection"
+    class="gallery-image"
+>
+                <img
+    src="IMAGES/khhado.jpeg"
+    alt="Pink World pink fashion collection"
+    class="gallery-image"
+>
             </div>
 
 
@@ -106,8 +142,12 @@
                     Free styling for purchases over R500.
                 </p>
 
-                <img src="IMAGES/patels.jpeg" alt="Pink World styling">
-                <img src="IMAGES/lele.jpeg" alt="Pink World lookbook">
+                <img src="IMAGES/patels.jpeg" alt="Pink World pink clothing collection"
+    class="gallery-image"
+>
+                <img src="IMAGES/lele.jpeg" alt="Pink World pink clothing collection"
+    class="gallery-image"
+>
             </div>
 
 
@@ -162,6 +202,20 @@
 
     </section>
 
+<div id="lightbox" class="lightbox">
+
+    <span id="lightboxClose"
+          class="lightbox-close">
+        &times;
+    </span>
+
+    <img
+        id="lightboxImage"
+        src=""
+        alt="Enlarged Pink World clothing image"
+    >
+
+</div>
 </main>
 
 
@@ -182,16 +236,35 @@
                 <li><a href="collections.html">Collections</a></li>
                 <li><a href="cart.html">Cart</a></li>
                 <li><a href="contact us.html">Contact Us</a></li>
+                <li></li><a href="enquiry.html">Enquiry</a></li>
             </ul>
         </div>
 
         
-        <div class="footer-section">
-            <h3>Contact</h3>
-            <p>Email: <a href="mailto:info@pinkworld.com">info@pinkworld.com</a></p>
-            <p>Phone: <a href="tel:+27110000000">+27 11 000 0000</a></p>
-            <p>Address: Johannesburg, South Africa</p>
-        </div>
+        
+<div class="footer-section">
+    <h3>Contact</h3>
+
+    <p>
+        Email:
+        <a href="mailto:kabelostinn@gmail.com">
+            kabelostinn@gmail.com
+        </a>
+    </p>
+
+    <p>
+        Phone:
+        <a href="tel:+27733691891">
+            073 369 1891
+        </a>
+    </p>
+
+    <p>
+        Address: 1567 Khakhu Street,
+        Daveyton, Benoni, South Africa
+    </p>
+</div>
+
 
         
         <div class="footer-section">
@@ -214,7 +287,7 @@
         <p>&copy; 2026 Pink World. All Rights Reserved.</p>
     </div>
 </footer>
-
+<script src="js/script.js"></script>
 </body>
 </html>
 
