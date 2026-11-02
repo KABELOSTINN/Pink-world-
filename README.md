@@ -93,4 +93,10 @@ Improved accessibility by using labels and meaningful image alt text.
 Checked the structure of the HTML pages to ensure elements were properly organised.
 
 
+JAVASCRIPT 
+
+Contact form validation.
+
+Enquiry form validation.
+
 
