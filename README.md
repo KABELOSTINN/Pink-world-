@@ -176,3 +176,5 @@ Added meta descriptions to the website pages.
 Added relevant keywords to the Enquiry page.
 
 Worked on creating an XML sitemap to help search engines discover website pages.
+
+Used GitHub to manage and document the development process.
