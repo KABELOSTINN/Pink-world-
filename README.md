@@ -139,3 +139,5 @@ Included enquiry categories for products, services, volunteering and sponsorship
 
 Updated the forms to support email submission using FormSubmit.
 
+Configured email submission to the Pink World Gmail address
+
