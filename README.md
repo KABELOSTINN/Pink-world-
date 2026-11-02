@@ -113,4 +113,8 @@ Image lightbox functionality for viewing gallery images.
 
 Introduced a light mode and dark mode feature to improve the website experience.
 
+Added a theme toggle button to the website header.
+
+Created JavaScript functionality to switch between light and dark themes.
+
 
