@@ -126,3 +126,5 @@ Updated the theme button text to display the available mode.
 Contact and Enquiry Forms
 
 Improved the website forms to make them more interactive and user-friendly.
+
+Added validation for required fields
