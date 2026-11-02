@@ -169,3 +169,5 @@ Improved the website layout for mobile and tablet screens.
 
 Search Engine Optimisation 
 Introduced basic SEO improvements.
+
+Added meta descriptions to the website pages.
