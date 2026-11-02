@@ -167,6 +167,7 @@ Maintained the pink and deep purple colour scheme.
 
 Improved the website layout for mobile and tablet screens.
 
+Created a robots.txt file to provide search engine crawling instructions.
 Search Engine Optimisation 
 Introduced basic SEO improvements.
 
