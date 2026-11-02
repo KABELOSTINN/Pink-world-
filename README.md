@@ -156,3 +156,5 @@ Added functionality to close the lightbox by clicking the close button or outsid
 
 Responsive Design
 Continued improving the website's responsive design.
+
+Maintained the desktop navigation menu.
