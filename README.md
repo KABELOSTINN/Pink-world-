@@ -174,3 +174,5 @@ Introduced basic SEO improvements.
 Added meta descriptions to the website pages.
 
 Added relevant keywords to the Enquiry page.
+
+Worked on creating an XML sitemap to help search engines discover website pages.
