@@ -129,9 +129,13 @@ Improved the website forms to make them more interactive and user-friendly.
 
 Added validation for required fields
 
+
+
 Added validation messages for incorrect or incomplete information.
 
 Added separate Contact Us and Enquiry forms.
 
 Included enquiry categories for products, services, volunteering and sponsorship.
+
+Updated the forms to support email submission using FormSubmit.
 
