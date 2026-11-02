@@ -120,3 +120,5 @@ Created JavaScript functionality to switch between light and dark themes.
 Added theme preference storage using localStorage.
 
 Enabled the website to remember the selected theme when the user returns.
+
+Updated the theme button text to display the available mode.
