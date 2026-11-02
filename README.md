@@ -109,4 +109,8 @@ Dynamic product search functionality.
 
 Image lightbox functionality for viewing gallery images.
 
+ Light Mode and Dark Mode
+
+Introduced a light mode and dark mode feature to improve the website experience.
+
 
