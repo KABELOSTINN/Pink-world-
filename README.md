@@ -149,3 +149,5 @@ Added interactive features to improve the browsing experience.
 Implemented dynamic product search using JavaScript.
 
 Added functionality to filter product cards based on search terms.
+
+Implemented an image lightbox for viewing gallery images.
