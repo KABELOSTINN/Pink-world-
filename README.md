@@ -154,3 +154,5 @@ Implemented an image lightbox for viewing gallery images.
 
 Added functionality to close the lightbox by clicking the close button or outside the image.
 
+Responsive Design
+Continued improving the website's responsive design.
