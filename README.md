@@ -133,3 +133,5 @@ Added validation messages for incorrect or incomplete information.
 
 Added separate Contact Us and Enquiry forms.
 
+Included enquiry categories for products, services, volunteering and sponsorship.
+
