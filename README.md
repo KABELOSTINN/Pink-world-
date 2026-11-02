@@ -144,3 +144,4 @@ Configured email submission to the Pink World Gmail address
 Added email subject headings to distinguish contact messages from enquiries.
 
 Product Search and Image Gallery
+Added interactive features to improve the browsing experience.
