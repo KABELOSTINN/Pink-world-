@@ -171,3 +171,5 @@ Search Engine Optimisation
 Introduced basic SEO improvements.
 
 Added meta descriptions to the website pages.
+
+Added relevant keywords to the Enquiry page.
