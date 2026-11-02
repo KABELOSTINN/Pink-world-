@@ -99,4 +99,10 @@ Contact form validation.
 
 Enquiry form validation.
 
+Enquiry type selection validation.
+
+Minimum message length validation.
+
+Success and error messages for form submissions.
+
 
