@@ -90,5 +90,7 @@ Added appropriate form IDs and input names to support JavaScript functionality.
 
 Improved accessibility by using labels and meaningful image alt text.
 
+Checked the structure of the HTML pages to ensure elements were properly organised.
+
 
 
