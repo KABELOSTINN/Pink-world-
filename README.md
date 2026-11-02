@@ -82,4 +82,6 @@ Reviewed and improved the existing HTML pages.
 
 Added meta descriptions to improve search engine visibility.
 
+Updated the website navigation to include the Enquiry page.
+
 
