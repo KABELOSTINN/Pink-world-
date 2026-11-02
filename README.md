@@ -86,5 +86,9 @@ Updated the website navigation to include the Enquiry page.
 
 Improved the consistency of the header and footer across the website.
 
+Added appropriate form IDs and input names to support JavaScript functionality.
+
+Improved accessibility by using labels and meaningful image alt text.
+
 
 
