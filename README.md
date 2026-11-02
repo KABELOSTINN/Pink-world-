@@ -167,4 +167,5 @@ Maintained the pink and deep purple colour scheme.
 
 Improved the website layout for mobile and tablet screens.
 
-Search Engine Optimisation (SEO)
+Search Engine Optimisation 
+Introduced basic SEO improvements.
