@@ -128,3 +128,8 @@ Contact and Enquiry Forms
 Improved the website forms to make them more interactive and user-friendly.
 
 Added validation for required fields
+
+Added validation messages for incorrect or incomplete information.
+
+Added separate Contact Us and Enquiry forms.
+
